@@ -1,3 +1,4 @@
+<!-- 登录组件 -->
 <template>
     <div class="login">
         <div class="box">
@@ -13,16 +14,12 @@
                     <span>Password</span>
                     <i></i>
                 </div>
-                <!-- <input type="submit" value="Login"> -->
             </div>
         </div>
     </div>
   </template>
   <script lang="ts">
   import { defineComponent } from "vue";
-  import { Plus } from "@element-plus/icons-vue";
-  import SliderButton from "../components/SliderButton.vue";
-  import LoadingView from "../components/LoadingView.vue";
   export default defineComponent({
     name: "LomeView",
     data() {
